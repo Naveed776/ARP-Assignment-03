@@ -67,7 +67,8 @@ To work with the bitmap library, you need to follow these steps:
 4. Run ```sudo make install``` to install the programs and any data files and documentation (sudo permission is required).
 5. Upon completing the installation, check that the files have been properly installed by navigating to ```/usr/local/lib```, where you should find the ```libbmp.so``` shared library ready for use.
 6. In order to properly compile programs which use the *libbitmap* library, you first need to notify the **linker** about the location of the shared library. To do that, you can simply add the following line at the end of your ```.bashrc``` file:      
-```export LD_LIBRARY_PATH="/usr/local/lib:$LD_LIBRARY_PATH"
+```
+export LD_LIBRARY_PATH="/usr/local/lib:$LD_LIBRARY_PATH"
 ```
 
 ## How to compile and run it
