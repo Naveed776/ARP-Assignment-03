@@ -2,7 +2,9 @@
 	Naveed Manzoor Afridi	| 5149575 |
 	Abdul Rauf		| 5226212 |
 	Group Name		| NR007   |
-	
+## GitHub
+https://github.com/Naveed776/ARP-Assignment-03.git
+
 ## Description of the programs
 The code to design, develop, test and deploy is a modified version of Assignment 2, including client/server features. We refer to this as "application". In the modified application, process B, shared memory and the second ncurses window are unchanged. Process A includes two new features:
 1. client connection toward a similar application running on a different machine in the network.
